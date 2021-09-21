@@ -8,8 +8,8 @@ body {
   bottom: 0;
   right: 0;
   left: 0;
-  background-color: #282828;
-  color: #a89984 !important;
+  background-color: #0f0f0f;
+  color: #1f1f1f !important;
 }
 
 html,
@@ -19,7 +19,7 @@ body {
 }
 
 #startpage {
-  background: #32302f;
+  background: #2f2f2f;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -43,12 +43,12 @@ ul {
 /* } */
 
 a {
-  color: #a89984;
+  color: #f1f1f1;
   text-decoration: none;
 }
 
 span#time {
-  color: #a89984;
+  color: #f1f1f1;
   font-size: 25pt;
   font-weight: lighter;
 }

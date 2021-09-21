@@ -1,7 +1,17 @@
 var d = new Date();
-var n = d.toLocaleString([], {
-  hour: "2-digit",
-  minute: "2-digit",
-  timezone: "IST",
-});
-document.getElementById("time").innerHTML = n;
+var time = d.toLocaleTimeString('it-IT', {
+	hour: 'numeric',
+	minute: 'numeric',
+})
+
+document.getElementById("time").innerHTML = time;
+
+setInterval(function() { 
+	var d = new Date();
+	var time = d.toLocaleTimeString('it-IT', {
+        	hour: 'numeric',
+        	minute: 'numeric',
+	})
+	document.getElementById("time").innerHTML = time;
+}, 3000);
+
